@@ -1,9 +1,25 @@
-## Awesome resources
+## Awesome video and article resources
 
-# Django testing (https://realpython.com/testing-in-django-part-1-best-practices-and-examples/#intro-to-testing-in-django)
+# Part 1: 
+# Pytest beginner 1: (https://www.youtube.com/watch?v=byaxg00Gf9I)
+# Pytest beginner 2: (https://www.youtube.com/watch?v=UMgxJvozR5A)
+# Pytest beginner 3: (https://www.youtube.com/watch?v=etosV2IWBF0)
+# Pytest Intermediate 1: (https://www.youtube.com/watch?v=fv259R38gqc)
+# Pytest Intermediate 2: (https://www.youtube.com/watch?v=RcN26hznmk4)
+
+
+# Part 2: Testing in Django
+# Intro to testing in Django: (https://realpython.com/testing-in-django-part-1-best-practices-and-examples/#intro-to-testing-in-django)
+# Django rest framework Testing: (http://www.tomchristie.com/rest-framework-2-docs/api-guide/testing)
+# Django Pytest Testing: (https://djangostars.com/blog/django-pytest-testing/)
+# Testing a Django web app: (https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django/Testing)
+
+
+# Part 3: Test automation using Selenium
+# https://www.youtube.com/watch?v=73qAGhXu5mM
+
+
 # Pytest api (https://www.youtube.com/watch?v=byaxg00Gf9I)
-# More on Pytest (https://www.youtube.com/watch?v=RcN26hznmk4), (https://www.youtube.com/watch?v=UMgxJvozR5A)
-# Test Automation in python using selenium (https://www.youtube.com/watch?v=73qAGhXu5mM)
 
 ## Why I would test?
 
@@ -31,6 +47,8 @@
 # ---(Pytest)--
 # clean api
 # > assert command
+# 41 === 41 True
+# assert 41 == 41 True
 
 # ---(unitest)--
 # api is more explicit
@@ -49,7 +67,8 @@
 # You need to specify each marker before each test
 # For cases you want to test all your functions individually
 # import pytest 
-# use decorators on each function @pytest.mark.one or @pytest.mark.two
+# use decorators on each function 
+# @pytest.mark.christine or @pytest.mark.zack
 # to run each test per marker, run the following command
 # > py.test -m one
 
@@ -92,20 +111,7 @@
 # > pytest (this command will look for files that match test_name.py)
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-## ------ other notes on python-----##
+## ------ Other notes on python-----##
 
 # There is a difference btwn a function and a method 
 # A function doesnt not exist in a class
